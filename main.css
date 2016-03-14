@@ -1,0 +1,66 @@
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #111;
+} */
+
+/*ul.a {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}*/
+
+li a {
+    color: #667;
+}
+
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="submit"]{ -webkit-appearance: none; }
+
+.submit{
+    width:100%;
+    background:#E8E8E8;
+    /*color:#fff;*/
+    font-size:12px;
+    border:none;
+    border-radius:3px;
+    padding:16px;
+    margin-top:30px;
+    cursor:pointer;
+}
+.submit:hover{
+    background:#000;
+}
